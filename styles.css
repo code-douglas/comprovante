@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
     }
 
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f4f7fb;
       display: flex;
       justify-content: center;
@@ -27,10 +29,15 @@
 
     h1 {
       color: #3498db;
-      font-size: 28px;
+      font-size: 23px;
       margin-bottom: 20px;
       font-weight: bold;
     }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
 
     .informacoes {
       text-align: left;

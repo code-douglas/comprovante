@@ -4,28 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Notificação Extrajudicial</title>
+  <title>Comprovante de transferência</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
   <div class="comprovante-container">
-    <h1>Notificação Extrajudicial</h1>
+    <h1>
+      Comprovante de transferência
+    </h1>
+    <h2>
+      <p>R$ 1.000,00</p>
+    </h2>
 
     <div class="informacoes">
-      <p><span>Data:</span> <span id="data-atual"></span></p>
-      <p>Para acessar a notificação, permita a localização.</p>
+      <p style="text-align: center; margin-bottom: 20px;"><span>Data de recebimento: </span> <span id="data-atual"></span></p>
+      <p><span>De: </span> João Silva de Oliveira</p>
+      <p><span>Para: </span>Ravena Matos da Silva</p>
+      <p><span></span></p>
+      <p><span>Status:</span> Recebido com Sucesso</p>
     </div>
 
-    <button class="botao" onclick="window.location.reload()">Acessar</button>
-
+    <button class="botao" onclick="window.print()">Imprimir comprovante</button>
 
     <div class="comprovante-footer">
       <p>Se você tiver dúvidas, entre em contato com nosso suporte.</p>
       <p><a href="#">Clique aqui</a> para mais informações.</p>
     </div>
 
-  </div>
+  </div> 
 
   <script>
     window.addEventListener("load", () => {
